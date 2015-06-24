@@ -22,10 +22,11 @@
                     break;
                 case 'edit_news':
                     require_once('view/pages/edit_news.php');
-                     case 'edit_table':
+                    break;
+                case 'edit_table':
                     require_once('view/pages/edit_table.php');
                     break;
-               default:
+                default:
                     require_once('view/error/404.php');
                     break;
             }
