@@ -1,4 +1,4 @@
-<?php 
+<?php
     session_start();
     error_reporting(-1);
     ini_set('display_errors', 'On');
@@ -16,12 +16,32 @@
                 case 'add_news':
                     require_once('view/pages/add_news.php');
                     break;
+                case 'cms':
+                    require_once('view/pages/cms.php');
+                    break;
                 case 'news_listing':
                 case 'delete_news':
                     require_once('view/pages/list_news.php');
                     break;
                 case 'edit_news':
                     require_once('view/pages/edit_news.php');
+                    break;
+                     case 'edit_cms':
+                    require_once('view/pages/cms.php');
+                    break;
+                     case 'pagelisting':
+                    require_once('view/pages/pagelisting.php');
+                    break;
+                case 'aboutus':
+                    require_once('admin/aboutus.php');
+                    break;
+                  case 'edit_info':
+                    require_once('admin/contact.php');
+                    break;
+                
+            
+                case 'contact_us':
+                    require_once('news_portal/contact.php');
                     break;
                 case 'edit_table':
                     require_once('view/pages/edit_table.php');

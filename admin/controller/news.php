@@ -65,10 +65,11 @@
                 array_push($editAble, $rowEdit);
             }
         }
-    }
-    //Edit News block end
-
+     //Edit News block end
+}
     //This Block will execute always to list all news
+   //Edit News Block Start
+
     $dbQuery = "SELECT * FROM news";
     if(isset($_GET["tag"])) {
         $dbQuery .= " WHERE tags='".$_GET["tag"]."'";

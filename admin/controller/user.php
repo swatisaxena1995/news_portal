@@ -11,9 +11,11 @@ if(isset($_POST["username"]) && isset($_POST["password"])){
             $_SESSION["userid"] = $resultArray['id'];
             $_SESSION["username"] = $resultArray['username'];
             header("Location: http://localhost/news_portal/admin/index.php");
+            return;
         }
     } else {
         header("Location: http://localhost/news_portal/admin/login.php?error=true");
+        return;
     }
 }
 
