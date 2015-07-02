@@ -52,7 +52,7 @@
                         <a href="aboutus.php">About</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="services.php">Services</a>
                     </li>
                     <li>
                         <a href="contactform.php">Contact</a>

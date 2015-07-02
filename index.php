@@ -19,6 +19,7 @@
 
     <!-- Custom CSS -->
     <link href="public/css/shop-homepage.css" rel="stylesheet">
+    <link href="public/css/style.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -52,7 +53,7 @@
                         <a href="aboutus.php">About</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="services.php">Services</a>
                     </li>
                     <li>
                         <a href="contactform.php">Contact</a>
@@ -131,7 +132,7 @@
                     <?php foreach ($rows as $key => $value) { ?>
                         <div class="col-sm-4 col-lg-4 col-md-4">
                             <div class="thumbnail">
-                                <img width="320" height="150" style="height: 150 px !important;" src="./admin/<?php echo  $value["thumbnails"]; ?>" alt="">
+                               <a  href="admin/images/02032013509.jpg" target="_blank"> <img  width="320" height="150" style="height: 150 px !important;" src="./admin/<?php echo  $value["thumbnails"]; ?>" alt=""></a>
                                 <div class="caption">
                                     <h4><a href="#"><?php echo $value["title"]; ?></a>
                                     </h4>

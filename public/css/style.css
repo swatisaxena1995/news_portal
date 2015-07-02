@@ -1,0 +1,10 @@
+.thumbnail img{border:1px solid red; cursor: pointer;}
+img:hover {
+    transform:scale(1.1);
+    -ms-transform:scale(1.1); /* IE 9 */
+    -moz-transform:scale(1.1); /* Firefox */
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -o-transform:scale(1.1); /* Opera */
+}
+p.lead:hover {color:red;cursor: pointer;}
+body{background-color:#000;}

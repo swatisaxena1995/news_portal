@@ -29,17 +29,18 @@
                      case 'edit_cms':
                     require_once('view/pages/cms.php');
                     break;
-                     case 'pagelisting':
+                case 'pagelisting':
                     require_once('view/pages/pagelisting.php');
                     break;
                 case 'aboutus':
                     require_once('admin/aboutus.php');
                     break;
-                  case 'edit_info':
+                case 'services':
+                    require_once('admin/services.php');
+                    break;
+                case 'edit_info':
                     require_once('admin/contact.php');
                     break;
-                
-            
                 case 'contact_us':
                     require_once('news_portal/contact.php');
                     break;
